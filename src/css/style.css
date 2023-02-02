@@ -1,0 +1,392 @@
+
+@font-face {
+    font-family: 'Pangram Bold';
+    src: url('../font/PPPangramSansRounded-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pangram Semibold';
+    src: url('../font/PPPangramSansRounded-Semibold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pangram Narrow Semibold';
+    src: url('../font/PPPangramSansRounded-NarrowSemibold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pangram Compact Regular';
+    src: url('../font/PPPangramSansRounded-CompactRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pangram Light';
+    src: url('../font/PPPangramSansRounded-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pangram Thin';
+    src: url('../font/PPPangramSansRounded-Thin.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pangram Medium';
+    src: url('../font/PPPangramSansRounded-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 85px;
+    color: #ffffff;
+    font-family: 'Pangram Semibold';
+}
+
+header {
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    position: relative;
+    left: 140px;
+}
+
+li {
+    display: inline;
+    font-size: 24px;
+    padding: 7px 25px 17px;
+    background-color: #92B491;
+    margin-right: 150px;
+    border-radius: 13px;
+    margin-bottom: 195px;
+    font-family: 'Pangram Bold';
+}
+
+li:last-child {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+#section-about {
+    height: 900px;
+    background: url(../imgs/home-bg.png) center/cover no-repeat;
+    padding-top: 200px;
+    padding-left: 221px;
+    position: relative;
+}
+
+.section-about__logo-container {
+    display: inline-block;
+    margin-bottom: 34px;
+}
+
+.section-about__company-name {
+    display: inline-block;
+    font-family: 'Pangram Bold';
+}
+
+h1 {
+    margin: 0;
+    font-size: 72px;
+    color: #92B491;
+    position: relative;
+    bottom: 40px;
+}
+
+.section-about__text {
+    font-size: 48px;
+    position: relative;
+    right: 40px;
+    margin-bottom: 80px;
+    color: #92B491;
+    width: 550px;
+    text-align: center;
+    line-height: 55px;
+    font-family: 'Pangram Narrow Semibold';
+}
+
+.button-box button {
+    font-size: 36px;
+    color: #FFFFFF;
+    background-color: #92B491;
+    padding: 4px 50px 17px;
+    border-radius: 22px;
+    border: none;
+    margin-right: 80px;
+    position: relative;
+    right: 30px;
+}
+
+.button-box button:last-child {
+    margin: 0;
+}
+
+.section-about__img {
+    position: absolute;
+    left: 57%;
+    bottom: 20%;
+}
+
+#section-products {
+    background: url(../imgs/products-bg.png) center/cover no-repeat;
+    padding-top: 49px;
+    padding-left: 180px;
+    padding-bottom: 50px;
+    font-family: 'Pangram Narrow Semibold';
+}
+
+.section-products__title {
+    font-size: 64px;
+    padding: 4px 170px 30px 10px;
+    background-color: #92B491;
+    display: inline-block;
+    border-radius: 18px;
+    color: #FFFFFF;
+    margin-bottom: 52px;
+    border: #FFFFFF 1px solid;
+    font-family: 'Pangram Narrow Semibold';
+}
+
+.section-products__flex-item img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 7px;
+}
+
+.section-products__border-line {
+    width: 216px;
+    height: 167px;
+    background-color:#668365;
+    z-index: -1;
+    border-radius: 16px;
+    margin-bottom: 7px;
+}
+
+.section-products__card {
+    background-color: #92B491;
+    width: 265px;
+    height: 377px;
+    border-radius: 15px;
+    padding-top: 22px;
+    padding-left: 24px;
+    border: #FFFFFF 1px solid;
+    margin-right: 149px;
+    margin-bottom: 11px;
+    position: relative;
+    left: 17px;
+}
+
+.section-products__prod-title {
+    font-size: 24px;
+    color:#FFFFFF;
+    margin-bottom: 15px;
+}
+
+.section-products__desc {
+    font-size: 13px;
+    /*padding-left: 24px;*/
+    width: 205px;
+    line-height: 15px;
+    margin-bottom: 40px;
+    font-family: 'Pangram Compact Regular';
+}
+
+.section-products__price {
+    font-size: 18px;
+    /*padding-left: 24px;*/
+    margin-right: 55px;
+    display: inline-block;
+    font-family: 'Pangram Thin';
+    position: absolute;
+    top: 88%;
+}
+
+.section-products__button {
+    font-size: 18px;
+    padding: 0px 20px 4px;
+    background-color: #C8DDC7;
+    border-radius: 10px;
+    border: 3px solid #FFFFFF;
+    font-family: 'Pangram Bold';
+    color: #668365;
+    position: absolute;
+    top: 87%;
+    left: 54%;
+}
+
+.section-products__flex-box {
+    width: 1420px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#section-team {
+    background: url(../imgs/team-bg.png) left/contain no-repeat;
+    padding-right: 168px;
+    padding-left: 82px;
+    padding-top: 323px;
+    padding-bottom: 50px;
+}
+
+.border-box {
+    width: 592px;
+    height: 408px;
+    background-color: #92B491;
+    border-radius: 15px;
+    padding-top: 17px;
+    display: inline-block;
+    margin-right: 112px;
+}
+
+.border-box img {
+    display: block;
+    margin: 0 auto;
+}
+
+.section-team__title {
+    font-size: 96px;
+    color: #668365;
+    display: inline;
+    position: relative;
+    bottom: 440px;
+    margin-bottom: 80px;
+    font-family: 'Pangram Compact Regular';
+}
+
+.section-team__text {
+    display: inline;
+    color: #668365;
+    text-align: right;
+    width: 489px;
+    position: relative;
+    bottom: 300px;
+    left: 720px;
+    font-size: 24px;
+    font-family: 'Pangram Medium';
+    line-height: 27px;
+}
+
+.section-team__textbox {
+    width: 489px;
+}
+
+#section-supervisor {
+    background: url(../imgs/supervisor-bg.png) center/cover no-repeat;
+    padding-top: 169px;
+    padding-left: 149px;
+    position: relative;
+    padding-bottom: 518px;
+}
+
+.section-supervisor__title {
+    color: #668365;
+    font-size: 64px;
+    margin-bottom: 129px;
+    font-family: 'Pangram Compact Regular';
+}
+
+.section-supervisor__text {
+    font-size: 36px;
+    color: #668365;
+    width: 489px;
+    font-family: 'Pangram Medium';
+}
+
+.section-supervisor__border {
+    width: 570px;
+    height: 733px;
+    background-color: #92B491;
+    padding-top: 27px;
+    border-radius: 15px;
+    position: absolute;
+    left: 51%;
+    bottom: 19%;
+}
+
+.section-supervisor__border img {
+    display: block;
+    margin: 0 auto;
+}
+
+#section-teamlist {
+    background: url(../imgs/teamlist-bg.png) center/cover no-repeat;
+    padding-top: 21px;
+    padding-bottom: 74px;
+}
+
+.section-teamlist__title {
+    font-size: 72px;
+    color: #315230;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Pangram Light';
+}
+
+.section-teamlist__border {
+    width: 980px;
+    height: 835px;
+    background-color: #92B491;
+    border-radius: 34px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 18px;
+}
+
+#section-contact {
+    background: url(../imgs/order-bg.png) center/cover no-repeat;
+    padding-top: 320px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.section-contact__img {
+    margin-bottom: 50px;
+
+}
+
+.section-contact__button {
+    font-size: 36px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background-color: #92B491;
+    border-radius: 22px;
+    padding: 8px 50px 20px;
+    margin-bottom: 50px;
+    font-family: 'Pangram Bold';
+}
+
+.section-contact__text {
+    font-size: 36px;
+    color: #000000;
+    width: 878px;
+    margin: 0 auto;
+    font-family: 'Pangram Thin';
+}
